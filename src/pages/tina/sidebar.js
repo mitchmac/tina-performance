@@ -23,5 +23,6 @@ function Index() {
 
 export default withTina(Index, {
     enabled: true,
-    sidebar: true
+    sidebar: true,
+    toolbar: true
 })
