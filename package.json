@@ -1,0 +1,25 @@
+{
+  "name": "tina-performance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export",
+    "serve": "next build && next export && serve out",
+    "lighthouse": "lighthouse http://localhost:5000 --output=json --only-categories=performance --output-path=./reports/report.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1",
+    "tinacms": "^0.34.0"
+  },
+  "devDependencies": {
+    "lighthouse": "^6.5.0",
+    "serve": "^11.3.2"
+  }
+}
