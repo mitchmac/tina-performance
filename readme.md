@@ -9,12 +9,13 @@
 | [Inline with text field & CMS disabled](https://tina-performance.netlify.app/tina/inline) | 83  | 238kB |
 | [Inline with Markdown WYSIWYG](https://tina-performance.netlify.app/tina/inline-wysiwyg) | 75  | 443kB |
 | [Inline with Markdown WYSIWYG & CMS disabled](https://tina-performance.netlify.app/tina/inline-wysiwyg-cms-disabled) | 71 | 443kB |
+| [Inline with dynamically loaded Markdown WYSIWYG](https://tina-performance.netlify.app/tina/inline-dynamic-wysiwyg) |  74 | 239kB |
+| [Inline with dynamically loaded Markdown WYSIWYG & CMS disabled](https://tina-performance.netlify.app/tina/inline-dynamic-wysiwyg-cms-disabled) | 89  | 239kB |
 
 *single run
 
 Todo:
 
-* inline
-* dynamic wysiwyg
+* blocks
 * performance breakdown
 * handle inconsistent lighthouse results
